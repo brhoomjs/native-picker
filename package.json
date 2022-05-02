@@ -1,6 +1,6 @@
 {
-  "name": "@capacitor-community/native-picker",
-  "version": "0.0.1",
+  "name": "cap-native-picker",
+  "version": "1.0.4",
   "description": "High performance native picker",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -11,9 +11,9 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "CapacitorCommunityNativePicker.podspec"
+    "CapNativePicker.podspec"
   ],
-  "author": "",
+  "author": "Ibrahim F <ibrahim_dev@icloud.com>",
   "license": "MIT",
   "repository": {
     "type": "git",

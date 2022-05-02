@@ -1,11 +1,11 @@
-# @capacitor-community/native-picker
+# @cap-native-picker
 
 High performance native picker
 
 ## Install
 
 ```bash
-npm install @capacitor-community/native-picker
+npm install @cap-native-picker
 npx cap sync
 ```
 
