@@ -1,11 +1,11 @@
-# @cap-native-picker
+# cap-native-picker
 
 High performance native picker
 
 ## Install
 
 ```bash
-npm install @cap-native-picker
+npm i cap-native-picker
 npx cap sync
 ```
 
@@ -13,7 +13,7 @@ npx cap sync
 
 <docgen-index>
 
-* [`showPicker(...)`](#showpicker)
+- [`showPicker(...)`](#showpicker)
 
 </docgen-index>
 
@@ -32,6 +32,6 @@ showPicker(options: { values: string[]; }) => Promise<{ selectedIndex: number; }
 
 **Returns:** <code>Promise&lt;{ selectedIndex: number; }&gt;</code>
 
---------------------
+---
 
 </docgen-api>

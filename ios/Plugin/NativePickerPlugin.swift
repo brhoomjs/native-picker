@@ -32,7 +32,7 @@ public class NativePickerPlugin: CAPPlugin, UIPickerViewDelegate, UIPickerViewDa
     private var toolbarDoneButton: UIBarButtonItem!
     private var toolbarCancelButton: UIBarButtonItem!
     
-    private var selectedIndex = -1
+    private var selectedIndex = 0
     private var values: [String] = []
     
     private func loadPlugin() {
@@ -87,7 +87,7 @@ public class NativePickerPlugin: CAPPlugin, UIPickerViewDelegate, UIPickerViewDa
         DispatchQueue.main.async {
             self.dummyTextField.resignFirstResponder()
             self.call = nil
-            self.selectedIndex = -1
+            self.selectedIndex = 0
             self.values.removeAll()
             self.pickerView.reloadComponent(0)
         }
