@@ -3,8 +3,11 @@ import { WebPlugin } from '@capacitor/core';
 import type { NativePickerPlugin } from './definitions';
 
 export class NativePickerWeb extends WebPlugin implements NativePickerPlugin {
-  async echo(options: { value: string }): Promise<{ value: string }> {
-    console.log('ECHO', options);
-    return options;
+  showPicker(): Promise<{ selectedIndex: number }> {
+    return new Promise((r, j) => {
+      const selectedIndex = parseInt(prompt('Enter amount') || '0');
+      if (isNaN(selectedIndex)) j('Wrong number');
+      r({ selectedIndex });
+    });
   }
 }

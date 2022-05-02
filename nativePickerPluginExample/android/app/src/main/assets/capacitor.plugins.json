@@ -1,0 +1,6 @@
+[
+	{
+		"pkg": "@capacitor-community/native-picker",
+		"classpath": "com.capacitorjs.plugins.nativepicker.NativePickerPlugin"
+	}
+]

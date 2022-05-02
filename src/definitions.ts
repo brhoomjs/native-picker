@@ -1,3 +1,3 @@
 export interface NativePickerPlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+  showPicker(options: { values: string[] }): Promise<{ selectedIndex: number }>;
 }

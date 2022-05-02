@@ -1,0 +1,7 @@
+{
+  "name": "nativePickerPluginExample",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
